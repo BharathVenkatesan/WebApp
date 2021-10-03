@@ -55,8 +55,11 @@ pipeline {
     }
 
     stage('UAT Certification ') {
+      when {
+        branch 'master'
+      }
       steps {
-        echo 'UAT Cerificate Manual'
+        echo 'UAT Certificate Manual'
       }
     }
 
