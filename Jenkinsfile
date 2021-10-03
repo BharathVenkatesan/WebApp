@@ -60,7 +60,7 @@ pipeline {
       }
       steps {
         echo 'UAT Certificate - Manual'
-        input 'Do you want to Certify'
+        input 'Do you want to Certify?'
       }
     }
 
