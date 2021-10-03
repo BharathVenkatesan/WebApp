@@ -45,6 +45,7 @@ pipeline {
     stage('QA Certification') {
       steps {
         echo 'QA to certify Yes or No (Manual)'
+        input 'Manual Certify'
       }
     }
 
