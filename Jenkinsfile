@@ -59,7 +59,8 @@ pipeline {
         branch 'master'
       }
       steps {
-        echo 'UAT Certificate Manual'
+        echo 'UAT Certificate - Manual'
+        input 'Do you want to Certify'
       }
     }
 
